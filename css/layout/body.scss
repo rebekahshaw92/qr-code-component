@@ -1,0 +1,23 @@
+$lightGray: hsl(212, 45%, 89%);
+
+body {
+ background-color: $lightGray;
+}
+
+.card {
+    width: 19rem;
+    height: 31rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 9px 16px #d7e0ea;
+    @include media-breakpoint-up(xxl) {
+        width: 20rem;
+        height: 32rem;
+    }
+}
+
+.card-img-top {
+   padding: 15px;
+   border-radius: 20px;
+}

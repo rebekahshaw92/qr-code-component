@@ -1,0 +1,25 @@
+$font: 'Outfit', sans-serif;
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+
+body {
+    font-family: $font;
+}
+
+.card-title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: $grayishBlue;
+    @include media-breakpoint-up(xxl) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
